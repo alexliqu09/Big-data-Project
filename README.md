@@ -1,4 +1,4 @@
-<h1><center><b>Analytcs for Premier leages Football Players</b></center></h1>
+<h1><center><b>Análisis de datos para jugadores de fútbol de la Premier League</b></center></h1>
 
 ### <h2><b> ℹ️ Descripción</b></h2>
 En el proyecto, se trabajó con una fuente de datos CSV de la Premier League que contenía información sobre los jugadores en diferentes temporadas desde 2014 hasta 2022. Se realizó un proceso de ingesta de datos en Databricks, en el cual se llevó a cabo la transformación y limpieza de los datos, así como el almacenamiento de los mismos en diferentes capas: landing, bronze, silver y gold.
