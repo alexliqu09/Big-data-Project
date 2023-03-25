@@ -11,7 +11,7 @@ Para visualizar los datos, se conectó Power BI a Databricks y se importó el ar
 ## <h2><b>Pipeline</b></h2>
 
 Pipeline del trabajo realizado.
-![image](src/pipeline.jpg)
+![image](src/pipeline_.jpeg)
 
 ## <h2><b>REPORTE</b></h2>
 
