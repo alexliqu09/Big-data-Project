@@ -24,18 +24,18 @@ Visualización de los jugadores con algunas estadisticas a travez de Power BI.
 
 ## <h2><b>Instrucciones</b></h2>
 
-- Crearse una cuenta en databricks
+- Crear una cuenta en Databricks.
 
-- Levantar un cluster
+- Levantar un cluster.
 
-- Crearse un Notbook y mediante sql crear el landing, bronze, silver y gold  y seguir los pasos de este [Notebook](fooball_data.ipynb).
+- Crear un notebook en Databricks y utilizar SQL para crear las capas landing, bronze, silver y gold, siguiendo los pasos del siguiente [Notebook](fooball_data.ipynb).
 
-- Una vez acabado mover le archivo a las Database Tables.
+- Una vez creadas las capas, mover el archivo al Database Tables.
 
-- Conectarse a Power BI y dirigirse FILE -> GET DATA -> ONLINE SERVICES -> DATABRICKS (BETA) y colocar las credenciales 
-server hostname : community.cloud.databricks.com y el HTTP PATH que esta en JDBC/ODBC
- 
-- Con la data cargada puedes cargar tu reporte !!!!
+- Conectarse a Power BI y seleccionar FILE -> GET DATA -> ONLINE SERVICES -> DATABRICKS (BETA), e ingresar las credenciales del servidor hostname: community.cloud.databricks.com y el HTTP PATH que se encuentra en JDBC/ODBC.
+
+- Con los datos cargados, crear el reporte deseado.
+
 
 ## 👨‍💻 Maintainers
 * Alexander Lique, Github: [alexliqu09](https://github.com/alexliqu09)
