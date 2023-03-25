@@ -3,7 +3,7 @@
 ### <h2><b> ℹ️ Descripción</b></h2>
 En el proyecto, se trabajó con una fuente de datos CSV de la Premier League que contenía información sobre los jugadores en diferentes temporadas desde 2014 hasta 2022. Se realizó un proceso de ingesta de datos en Databricks, en el cual se llevó a cabo la transformación y limpieza de los datos, así como el almacenamiento de los mismos en diferentes capas: landing, bronze, silver y gold.
 
-En la capa de landing, se almacenaron los datos crudos en CSV, separados por carpetas de temporadas. En la capa bronze, se realizó la transformación y limpieza de los datos, y se almacenaron en formato parquet. En la capa silver, se llevaron a cabo operaciones de agregación para obtener estadísticas de los jugadores en cada temporada, y se almacenaron también en formato parquet. Finalmente, en la capa gold se generaron estadísticas por temporada y jugador, se ordenaron y se guardaron en formato parquet.
+En la capa de landing, se almacenaron los datos crudos en CSV, separados por carpetas de temporadas. En la capa bronze, se almacenaron en formato parquet. En la capa silver, se llevaron a cabo operaciones de agregación para obtener estadísticas de los jugadores en cada temporada, y se almacenaron también en formato parquet. Finalmente, en la capa gold se generaron estadísticas por temporada y jugador, se ordenaron y se guardaron en formato parquet y csv.
 
 Para visualizar los datos, se conectó Power BI a Databricks y se importó el archivo csv generado apartir de las transformaciones de la capa gold. Luego se generaron visualizaciones y se creó un reporte que permite a los usuarios interactuar con los datos de los jugadores y sus estadísticas.
 <p>
